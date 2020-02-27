@@ -148,6 +148,11 @@ if (settings.clicableImg === true) {
       opacity.className = "fullscreen__opacity";
       opacity.style.backgroungColor = "fullscreen__opacity";
       immagineclone.className = "img__fullscreen";
+      if (immagineclone.width > immagineclone.height) {
+        immagineclone.className = "img__orizontal";
+      } else {
+        immagineclone.className = "img__vertical";
+      }
       opacity.appendChild(immagineclone);
       opacity.appendChild(closefullscreen);
       document.body.appendChild(opacity);

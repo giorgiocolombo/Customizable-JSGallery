@@ -149,7 +149,7 @@ if (settings.clicableImg === true) {
       opacity.style.backgroungColor = "fullscreen__opacity";
       immagineclone.className = "img__fullscreen";
       if (immagineclone.width > immagineclone.height) {
-        immagineclone.className = "img__orizontal";
+        immagineclone.className = "img__horizontal";
       } else {
         immagineclone.className = "img__vertical";
       }
